@@ -33,14 +33,15 @@ vector <Probka> wczytaj (string n)
 }
 }
 
-int main(int arg,char* argv[])
+int main(int argc,char* argv[])
 {
-vector <Probka> dd=wczytaj("sygnal.csv");
+
    if (argc != 2) {
-throw runtime_error(”Nale¿y podaæ nazwê pliku!”);
+ return -1;
 }
+vector <Probka> dd=wczytaj(argv [1]);
 string nazwa_pliku = argv[1];
-cout << ”Odczytuje plik: ” << nazwa_pliku << endl;
+cout << "Odczytuje plik: " << nazwa_pliku << endl;
 
     cin.get();
     return 0;
