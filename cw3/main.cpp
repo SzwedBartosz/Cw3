@@ -30,8 +30,20 @@ vector <Probka> wczytaj (string n)
     aa>>_x;
     cout<<_t<<endl;
     cout<<_x<<endl;
+    tablica.push_back(Probka(_t,_x));
+} return(tablica);
 }
+void zapis(vector <Probka> dane, string nazwa)
+{
+   ofstream plik (nazwa);
+   plik << "Bartosz Szwed ";
+   for (int i=0;i<dane.size();i++)
+   {
+       plik<<dane[i].t <<", "<<dane[i].x<< endl;
+   }
+   plik.close();
 }
+
 
 int main(int argc,char* argv[])
 {
@@ -42,7 +54,7 @@ int main(int argc,char* argv[])
 vector <Probka> dd=wczytaj(argv [1]);
 string nazwa_pliku = argv[1];
 cout << "Odczytuje plik: " << nazwa_pliku << endl;
-
+zapis (dd, "nazwa.csv");
     cin.get();
     return 0;
 }
