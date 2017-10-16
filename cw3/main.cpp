@@ -36,7 +36,7 @@ vector <Probka> wczytaj (string n)
 void zapis(vector <Probka> dane, string nazwa)
 {
    ofstream plik (nazwa);
-   plik << "n1";
+
    for (int i=0;i<dane.size();i++)
    {
        plik<<dane[i].t <<", "<<dane[i].x<< endl;
@@ -45,9 +45,9 @@ void zapis(vector <Probka> dane, string nazwa)
 }
 
 double obliczDlugosc(vector<Probka> jjj)
-{double a=-10000000000000000000000000000000
+{double a=-100000
 ;
-double u=1000000000000000;
+double u=100000;
 
 
        double d;
