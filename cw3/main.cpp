@@ -67,7 +67,17 @@ double u=100000;
    return d;
 }
 
+double obliczSrednia (vector<Probka> kkk)
+{ double o=0; double s;
+    for (int i=0;i<kkk.size();i++)
+        {double g=0;
+        g=g+kkk[i].x;
 
+        o=o++;
+s=g/o;
+}cout<<s<<endl;
+
+}
 int main(int argc,char* argv[])
 {
 
@@ -78,6 +88,7 @@ vector <Probka> dd=wczytaj(argv [1]);
 string nazwa_pliku = argv[1];
 cout << "Odczytuje plik: " << nazwa_pliku << endl;
 obliczDlugosc(dd);
+obliczSrednia(dd);
 zapis (dd, "nazwa.csv");
     cin.get();
     return 0;
