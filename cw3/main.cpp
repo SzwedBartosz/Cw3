@@ -36,12 +36,35 @@ vector <Probka> wczytaj (string n)
 void zapis(vector <Probka> dane, string nazwa)
 {
    ofstream plik (nazwa);
-   plik << "Bartosz Szwed ";
+   plik << "n1";
    for (int i=0;i<dane.size();i++)
    {
        plik<<dane[i].t <<", "<<dane[i].x<< endl;
    }
    plik.close();
+}
+
+double obliczDlugosc(vector<Probka> jjj)
+{double a=-10000000000000000000000000000000
+;
+double u=1000000000000000;
+
+
+       double d;
+   for(int i=0;i<jjj.size();i++)
+   {
+
+       if(jjj[i].x>a){
+        a=jjj[i].x;
+       }
+       if(jjj[i].x<u){
+        u=jjj[i].x;
+       }
+
+   } cout<<a<<endl;cout<<u<<endl;
+   d=a-u;
+   cout<<"dlugosc wynosi  "<<  d<<endl;
+   return d;
 }
 
 
@@ -54,7 +77,11 @@ int main(int argc,char* argv[])
 vector <Probka> dd=wczytaj(argv [1]);
 string nazwa_pliku = argv[1];
 cout << "Odczytuje plik: " << nazwa_pliku << endl;
+obliczDlugosc(dd);
 zapis (dd, "nazwa.csv");
     cin.get();
     return 0;
 }
+
+
+
