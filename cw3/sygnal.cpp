@@ -43,6 +43,27 @@ void sygnal::zapis(string nazwa_pliku)
    }
    plik.close();
 }
+double sygnal::sygnal_minimum()
+{
+    double min=10000;
+    for (int i=0;i<_zmienne.size();i++)
+    {
+        if(_zmienne[i].x<min){
+            min=_zmienne[i].x;
+        }
+    }return min;
+}
+double sygnal::sygnal_miximum()
+{
+    double max=-10000;
+    for (int i=0;i>_zmienne.size();i++)
+    {
+        if(_zmienne[i].x>max){
+            max=_zmienne[i].x;
+        }
+    }return max;
+}
+
 
 double sygnal::oblicz_Dlugosc()
 {double a=-100000;

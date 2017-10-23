@@ -80,3 +80,25 @@
 	<string>
 	<sstream>
 
+1508694570 source:d:\bartosz szwed\cw3\cw3\cw3\main.cpp
+	<iostream>
+	"probka.hpp"
+	"sygnal.hpp"
+
+1508690668 d:\bartosz szwed\cw3\cw3\cw3\probka.hpp
+
+1508768503 d:\bartosz szwed\cw3\cw3\cw3\sygnal.hpp
+	<vector>
+	"probka.hpp"
+	<string>
+
+1508690736 source:d:\bartosz szwed\cw3\cw3\cw3\probka.cpp
+	"probka.hpp"
+
+1508768491 source:d:\bartosz szwed\cw3\cw3\cw3\sygnal.cpp
+	"sygnal.hpp"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+

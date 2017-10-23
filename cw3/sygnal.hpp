@@ -12,6 +12,8 @@ void zapis (std::string nazwa_pliku);
 void odczytywanie();
 double oblicz_Dlugosc();
 double oblicz_Srednia();
+double sygnal_minimum();
+double sygnal_miximum();
 double calka();
 
 

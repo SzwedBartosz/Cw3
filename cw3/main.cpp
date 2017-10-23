@@ -21,6 +21,9 @@ s1.odczytywanie();
 cout<< "srednia wynosi"<< s1.oblicz_Srednia()<<endl;
 cout<< "calka wynosi"<< s1.calka()<<endl;
 cout<< "dlugosc wynosi"<< s1.oblicz_Dlugosc()<<endl;
+cout<< "maximum wynosi"<< s1.sygnal_miximum()<<endl;
+cout<< "minimum wynosi"<< s1.sygnal_minimum()<<endl;
+
 
 s1.zapis ("nazwa.csv");
     cin.get();
