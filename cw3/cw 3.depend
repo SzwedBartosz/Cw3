@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1508691508 source:d:\codeblocks\programy code block\cw 3\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdexcept>
+	<vector>
+	<sstream>
+
+1508692416 source:d:\codeblocks\programy code block\cw 3\probka.cpp
+	"Probka.hpp"
+
+1508692416 d:\codeblocks\programy code block\cw 3\probka.hpp
+
+1508692331 source:d:\codeblocks\programy code block\cw 3\sygnal.cpp
+
+1508694334 source:c:\users\dom\desktop\cw 3\probka.cpp
+	"probka.hpp"
+
+1508694266 c:\users\dom\desktop\cw 3\probka.hpp
+
+1508696755 source:c:\users\dom\desktop\cw 3\main.cpp
+	<iostream>
+	"probka.hpp"
+	"sygnal.hpp"
+
+1508696713 c:\users\dom\desktop\cw 3\sygnal.hpp
+	<vector>
+	"probka.hpp"
+	<string>
+
+1508696742 source:c:\users\dom\desktop\cw 3\sygnal.cpp
+	"sygnal.hpp"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1508697632 source:c:\users\neonet\desktop\cw-3_2\cw 3\main.cpp
+	<iostream>
+	"probka.hpp"
+	"sygnal.hpp"
+
+1508694266 c:\users\neonet\desktop\cw-3_2\cw 3\probka.hpp
+
+1508697246 c:\users\neonet\desktop\cw-3_2\cw 3\sygnal.hpp
+	<vector>
+	"probka.hpp"
+	<string>
+
+1508694334 source:c:\users\neonet\desktop\cw-3_2\cw 3\probka.cpp
+	"probka.hpp"
+
+1508696742 source:c:\users\neonet\desktop\cw-3_2\cw 3\sygnal.cpp
+	"sygnal.hpp"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1508698169 source:c:\users\neonet\desktop\studia\iii semestr\programowanie\cw 3\main.cpp
+	<iostream>
+	"probka.hpp"
+	"sygnal.hpp"
+
+1508694266 c:\users\neonet\desktop\studia\iii semestr\programowanie\cw 3\probka.hpp
+
+1508697246 c:\users\neonet\desktop\studia\iii semestr\programowanie\cw 3\sygnal.hpp
+	<vector>
+	"probka.hpp"
+	<string>
+
+1508694334 source:c:\users\neonet\desktop\studia\iii semestr\programowanie\cw 3\probka.cpp
+	"probka.hpp"
+
+1508696742 source:c:\users\neonet\desktop\studia\iii semestr\programowanie\cw 3\sygnal.cpp
+	"sygnal.hpp"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+

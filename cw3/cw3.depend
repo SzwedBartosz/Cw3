@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1508166101 source:d:\bartosz szwed\cw3\cw3\cw3\main.cpp
-	<iostream>
-	<fstream>
-	<string>
-	<stdexcept>
-	<vector>
-	<sstream>
-
