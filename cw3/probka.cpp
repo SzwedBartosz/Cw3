@@ -1,4 +1,4 @@
-#include "probka.hpp"
+#include "probkaa.hpp"
 
 
 Probka::Probka(double _t,double _x)

@@ -1,15 +1,15 @@
 #ifndef SYGNALLOADER_HPP
 #define SYGNALLOADER_HPP
-#include "sygnall.hpp"
+#include "syngall.hpp"
 #include <string>
 
 
 class sygnalloader {
 
 public:
-SygnalLoader();
-Sygnal wczytajSygnal (std::string nazwaPliku);
-void zapiszSygnal (Sygnal& sygnal, std::string nazwaPliku);
+sygnalloader();
+syngall wczytajSygnal (std::string nazwaPliku);
+void zapiszSygnal (syngall& sygnal, std::string nazwaPliku);
 
 
 

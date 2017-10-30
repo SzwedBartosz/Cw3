@@ -12,6 +12,7 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c++11" />
 					<Add option="-g" />
 				</Compiler>
 			</Target>
@@ -33,11 +34,15 @@
 			<Add option="-std=c++11" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="analizatorsygnalu.cpp" />
+		<Unit filename="analizatorsygnalu.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="probka.cpp" />
-		<Unit filename="probka.hpp" />
+		<Unit filename="probkaa.hpp" />
 		<Unit filename="sygnal.cpp" />
-		<Unit filename="sygnal.hpp" />
+		<Unit filename="sygnalloader.cpp" />
+		<Unit filename="sygnalloader.hpp" />
+		<Unit filename="syngall.hpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

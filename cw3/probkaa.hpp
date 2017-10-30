@@ -1,6 +1,6 @@
 #ifndef PROBKA_HPP
 #define PROBKA_HPP // PEOBKA_HPP
-
+#include <iostream>
 
 class Probka {
     public:
