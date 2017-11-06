@@ -5,7 +5,7 @@
 
 class analizatorsygnalu{
 AnalizatorSygnalu();
-
+public:
 double dlugosc( const syngall& sygnal);
 double minimum(const syngall& sygnal);
 double maksimum(const syngall& sygnal);

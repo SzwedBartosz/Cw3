@@ -16,16 +16,18 @@ int main(int argc,char* argv[])
 string nazwa_pliku = argv[1];
 analizatorsygnalu a1;
 syngall s1;
-s1.wczytywanie(nazwa_pliku);
-s1.odczytywanie();
-cout<< "srednia wynosi"<< a1.oblicz_Srednia(s1)<<endl;
+sygnalloader sl1;
+s1 = sl1.wczytajSygnal(nazwa_pliku);
+cout<<s1<<endl;
+sl1.zapiszSygnal(s1, nazwa_pliku);
+cout<< "srednia wynosi"<< a1.srednia(s1)<<endl;
 cout<< "calka wynosi"<< a1.calka(s1)<<endl;
-cout<< "dlugosc wynosi"<< a1.oblicz_Dlugosc(s1)<<endl;
-cout<< "maximum wynosi"<< a1.sygnal_miximum(s1)<<endl;
-cout<< "minimum wynosi"<< a1.sygnal_minimum(s1)<<endl;
+cout<< "dlugosc wynosi"<< a1.dlugosc(s1)<<endl;
+cout<< "maximum wynosi"<< a1.maksimum(s1)<<endl;
+cout<< "minimum wynosi"<< a1.minimum(s1)<<endl;
 
 
-s1.zapis ("nazwa.csv");
+sl1.zapiszSygnal (s1, "nazwa.csv");
     cin.get();
 
 

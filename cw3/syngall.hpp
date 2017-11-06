@@ -8,7 +8,7 @@
 class syngall {
 public:
 void dodajProbke ( const Probka& p);
- int iloscProbek() ;
+ int iloscProbek() const;
  Probka& operator[](int i);
  const Probka& operator[](int i) const;
  friend std::ostream& operator<<(std::ostream& stream, const syngall& sygnal);

@@ -7,7 +7,7 @@
 class sygnalloader {
 
 public:
-sygnalloader();
+sygnalloader(){}
 syngall wczytajSygnal (std::string nazwaPliku);
 void zapiszSygnal (syngall& sygnal, std::string nazwaPliku);
 

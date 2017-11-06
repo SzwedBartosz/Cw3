@@ -1,7 +1,7 @@
 #include "analizatorsygnalu.hpp"
 #include <iostream>
 #include "syngall.hpp"
-
+#include "sygnalloader.hpp"
 
 using namespace std;
 
@@ -15,64 +15,64 @@ double analizatorsygnalu::minimum (const syngall& sygnal)
         }
     }return min;
 }
-/*double sygnal::sygnal_maximum()
+double analizatorsygnalu::maksimum (const syngall& sygnal)
 {
     double max=-10000;
-    for (int i=0;i>syngall.iloscProbek();i++)
+    for (int i=0;i>sygnal.iloscProbek();i++)
     {
-        if(_zmienne[i].x>max){
-            max=_zmienne[i].x;
+        if(sygnal[i].x>max){
+            max=sygnal[i].x;
         }
     }return max;
 }
 
 
-double sygnal::oblicz_Dlugosc()
+double analizatorsygnalu::dlugosc (const syngall& sygnal)
 {double a=-100000;
 
 double u=100000;
 
 double d;
 
-   for(int i=0;i<_zmienne.size();i++)
+   for(int i=0;i<sygnal.iloscProbek();i++)
    {
 
-       if(_zmienne[i].x>a)
+       if(sygnal[i].x>a)
         {
-        a=_zmienne[i].x;
+        a=sygnal[i].x;
        }
-       if(_zmienne[i].x<u)
+       if(sygnal[i].x<u)
         {
-        u = _zmienne[i].x;
+        u =sygnal[i].x;
        }
 
    return d;
 }
 }
 
-double sygnal::oblicz_Srednia()
+double analizatorsygnalu::srednia (const syngall& sygnal)
 { double o=0;
-    for (int i=0;i<_zmienne.size();i++)
-        { o=o+ _zmienne[i].x;  }
-   if(_zmienne.size()>0)
+    for (int i=0;i<sygnal.iloscProbek();i++)
+        { o=o+sygnal[i].x;  }
+   if(sygnal.iloscProbek()>0)
     {
-       o=o/_zmienne.size();
+       o=o/sygnal.iloscProbek();
    }
        double oblicz_Srednia;
 return o;
 
 }
 
-double sygnal::calka()
+double analizatorsygnalu::calka(const syngall& sygnal)
 {
     double dt1, dpole1, calka;
-    for (int i = 0; i <= (_zmienne.size()) -1; i++)
+    for (int i = 0; i <= (sygnal.iloscProbek()) -1; i++)
     {
-     dt1 = _zmienne[i + 1].t - _zmienne[i].t;
-     dpole1 = (_zmienne[i].x + _zmienne[i + 1].x) * dt1 / 2;
+     dt1 = sygnal[i + 1].t - sygnal[i].t;
+     dpole1 = (sygnal[i].x + sygnal[i + 1].x) * dt1 / 2;
     calka = calka + dpole1;
     }
    return calka;
 
 }
-*/
+

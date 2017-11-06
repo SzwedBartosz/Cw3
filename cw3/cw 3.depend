@@ -80,10 +80,12 @@
 	<string>
 	<sstream>
 
-1508768574 source:d:\bartosz szwed\cw3\cw3\cw3\main.cpp
+1509983302 source:d:\bartosz szwed\cw3\cw3\cw3\main.cpp
 	<iostream>
-	"probka.hpp"
-	"sygnal.hpp"
+	"probkaa.hpp"
+	"syngall.hpp"
+	"sygnalloader.hpp"
+	"analizatorsygnalu.hpp"
 
 1508690668 d:\bartosz szwed\cw3\cw3\cw3\probka.hpp
 
@@ -92,13 +94,42 @@
 	"probka.hpp"
 	<string>
 
-1508687136 source:d:\bartosz szwed\cw3\cw3\cw3\probka.cpp
-	"probka.hpp"
+1509376869 source:d:\bartosz szwed\cw3\cw3\cw3\probka.cpp
+	"probkaa.hpp"
 
-1508764891 source:d:\bartosz szwed\cw3\cw3\cw3\sygnal.cpp
-	"sygnal.hpp"
+1509984618 source:d:\bartosz szwed\cw3\cw3\cw3\sygnal.cpp
+	"syngall.hpp"
 	<iostream>
 	<fstream>
 	<string>
+	<sstream>
+
+1509983129 source:d:\bartosz szwed\cw3\cw3\cw3\analizatorsygnalu.cpp
+	"analizatorsygnalu.hpp"
+	<iostream>
+	"syngall.hpp"
+	"sygnalloader.hpp"
+
+1509983165 d:\bartosz szwed\cw3\cw3\cw3\analizatorsygnalu.hpp
+	"syngall.hpp"
+	<iostream>
+
+1509981720 d:\bartosz szwed\cw3\cw3\cw3\syngall.hpp
+	<vector>
+	"probkaa.hpp"
+	<string>
+
+1509985234 d:\bartosz szwed\cw3\cw3\cw3\probkaa.hpp
+	<iostream>
+
+1509984788 d:\bartosz szwed\cw3\cw3\cw3\sygnalloader.hpp
+	"syngall.hpp"
+	<string>
+
+1509984788 source:d:\bartosz szwed\cw3\cw3\cw3\sygnalloader.cpp
+	"sygnalloader.hpp"
+	<string>
+	<iostream>
+	<fstream>
 	<sstream>
 
