@@ -1,6 +1,6 @@
 #ifndef SYGNALLOADER_HPP
 #define SYGNALLOADER_HPP
-#include "syngall.hpp"
+#include "SygnalProbkowany.hpp"
 #include <string>
 
 
@@ -8,8 +8,8 @@ class sygnalloader {
 
 public:
 sygnalloader(){}
-syngall wczytajSygnal (std::string nazwaPliku);
-void zapiszSygnal (syngall& sygnal, std::string nazwaPliku);
+SygnalProbkowany wczytajSygnal (std::string nazwaPliku);
+void zapiszSygnal (SygnalProbkowany& sygnal, std::string nazwaPliku);
 
 
 

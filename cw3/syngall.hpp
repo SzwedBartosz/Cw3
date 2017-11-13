@@ -5,7 +5,7 @@
 #include <string>
 
 
-class syngall {
+class syngall{
 public:
 void dodajProbke ( const Probka& p);
  int iloscProbek() const;

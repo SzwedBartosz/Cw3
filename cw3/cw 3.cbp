@@ -35,6 +35,9 @@
 			<Add option="-std=c++11" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Sygnal.hpp" />
+		<Unit filename="SygnalProbkowany.cpp" />
+		<Unit filename="SygnalProbkowany.hpp" />
 		<Unit filename="analizatorsygnalu.cpp" />
 		<Unit filename="analizatorsygnalu.hpp" />
 		<Unit filename="main.cpp" />
