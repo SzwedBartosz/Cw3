@@ -3,7 +3,7 @@
 #include "syngall.hpp"
 #include "sygnalloader.hpp"
 #include "analizatorsygnalu.hpp"
-
+#include "windows.h"
 using namespace std;
 
 int main(int argc,char* argv[])
@@ -18,8 +18,9 @@ analizatorsygnalu a1;
 syngall s1;
 sygnalloader sl1;
 s1 = sl1.wczytajSygnal(nazwa_pliku);
-cout<<s1<<endl;
-sl1.zapiszSygnal(s1, nazwa_pliku);
+
+sl1.zapiszSygnal(s1, "Plik.csv");
+
 cout<< "srednia wynosi"<< a1.srednia(s1)<<endl;
 cout<< "calka wynosi"<< a1.calka(s1)<<endl;
 cout<< "dlugosc wynosi"<< a1.dlugosc(s1)<<endl;

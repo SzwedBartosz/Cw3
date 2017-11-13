@@ -80,12 +80,13 @@
 	<string>
 	<sstream>
 
-1509983302 source:d:\bartosz szwed\cw3\cw3\cw3\main.cpp
+1510586354 source:d:\bartosz szwed\cw3\cw3\cw3\main.cpp
 	<iostream>
 	"probkaa.hpp"
 	"syngall.hpp"
 	"sygnalloader.hpp"
 	"analizatorsygnalu.hpp"
+	"windows.h"
 
 1508690668 d:\bartosz szwed\cw3\cw3\cw3\probka.hpp
 
@@ -97,14 +98,14 @@
 1509376869 source:d:\bartosz szwed\cw3\cw3\cw3\probka.cpp
 	"probkaa.hpp"
 
-1509984618 source:d:\bartosz szwed\cw3\cw3\cw3\sygnal.cpp
+1510585962 source:d:\bartosz szwed\cw3\cw3\cw3\sygnal.cpp
 	"syngall.hpp"
 	<iostream>
 	<fstream>
 	<string>
 	<sstream>
 
-1509983129 source:d:\bartosz szwed\cw3\cw3\cw3\analizatorsygnalu.cpp
+1510586479 source:d:\bartosz szwed\cw3\cw3\cw3\analizatorsygnalu.cpp
 	"analizatorsygnalu.hpp"
 	<iostream>
 	"syngall.hpp"
@@ -126,7 +127,7 @@
 	"syngall.hpp"
 	<string>
 
-1509984788 source:d:\bartosz szwed\cw3\cw3\cw3\sygnalloader.cpp
+1510586258 source:d:\bartosz szwed\cw3\cw3\cw3\sygnalloader.cpp
 	"sygnalloader.hpp"
 	<string>
 	<iostream>

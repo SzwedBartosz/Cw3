@@ -15,6 +15,7 @@ syngall sygnalloader::wczytajSygnal (std::string nazwaPliku)
     while (getline(plik,line))
 {
     stringstream aa(line);
+    cout<<line<<endl;
     double _t, _x;
     aa>>_t;
     aa.ignore();

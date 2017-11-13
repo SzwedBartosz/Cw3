@@ -18,7 +18,7 @@ double analizatorsygnalu::minimum (const syngall& sygnal)
 double analizatorsygnalu::maksimum (const syngall& sygnal)
 {
     double max=-10000;
-    for (int i=0;i>sygnal.iloscProbek();i++)
+    for (int i=0;i<sygnal.iloscProbek();i++)
     {
         if(sygnal[i].x>max){
             max=sygnal[i].x;
@@ -46,8 +46,10 @@ double d;
         u =sygnal[i].x;
        }
 
-   return d;
+
 }
+d=a-u;
+return d;
 }
 
 double analizatorsygnalu::srednia (const syngall& sygnal)

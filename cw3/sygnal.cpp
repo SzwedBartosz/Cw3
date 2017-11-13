@@ -28,5 +28,5 @@ Probka& syngall::operator[](int i) { return _zmienne[i];
 std::ostream& operator<<(std::ostream& stream, const syngall& sygnal)
 {
   for(int i=0;i<sygnal.iloscProbek();i++)
-  stream << sygnal[i]<<endl;
+  stream << sygnal[i]<<endl; return stream;
 }
