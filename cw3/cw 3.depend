@@ -91,7 +91,7 @@
 
 1508690668 d:\bartosz szwed\cw3\cw3\cw3\probka.hpp
 
-1510589136 d:\bartosz szwed\cw3\cw3\cw3\sygnal.hpp
+1511192785 d:\bartosz szwed\cw3\cw3\cw3\sygnal.hpp
 	<iostream>
 	"windows.h"
 	<fstream>
@@ -99,12 +99,7 @@
 1509376869 source:d:\bartosz szwed\cw3\cw3\cw3\probka.cpp
 	"probkaa.hpp"
 
-1510587571 source:d:\bartosz szwed\cw3\cw3\cw3\sygnal.cpp
-	"SygnalProbkowany.hpp"
-	<iostream>
-	<fstream>
-	<string>
-	<sstream>
+1511192785 source:d:\bartosz szwed\cw3\cw3\cw3\sygnal.cpp
 
 1510587571 source:d:\bartosz szwed\cw3\cw3\cw3\analizatorsygnalu.cpp
 	"analizatorsygnalu.hpp"
@@ -112,7 +107,7 @@
 	"SygnalProbkowany.hpp"
 	"sygnalloader.hpp"
 
-1510587571 d:\bartosz szwed\cw3\cw3\cw3\analizatorsygnalu.hpp
+1511192188 d:\bartosz szwed\cw3\cw3\cw3\analizatorsygnalu.hpp
 	"SygnalProbkowany.hpp"
 	<iostream>
 
@@ -121,7 +116,7 @@
 	"probkaa.hpp"
 	<string>
 
-1509985234 d:\bartosz szwed\cw3\cw3\cw3\probkaa.hpp
+1511192146 d:\bartosz szwed\cw3\cw3\cw3\probkaa.hpp
 	<iostream>
 
 1510587617 d:\bartosz szwed\cw3\cw3\cw3\sygnalloader.hpp
@@ -135,9 +130,155 @@
 	<fstream>
 	<sstream>
 
-1510589759 d:\bartosz szwed\cw3\cw3\cw3\sygnalprobkowany.hpp
+1511192146 d:\bartosz szwed\cw3\cw3\cw3\sygnalprobkowany.hpp
 	<vector>
 	"probkaa.hpp"
 	<string>
 	"Sygnal.hpp"
+
+1511193045 source:d:\bartosz szwed\cw3\cw3\cw3\sygnalprobkowany.cpp
+	"SygnalProbkowany.hpp"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1510587572 source:f:\studia\semestr iii\obiektowe\cw  5\analizatorsygnalu.cpp
+	"analizatorsygnalu.hpp"
+	<iostream>
+	"SygnalProbkowany.hpp"
+	"sygnalloader.hpp"
+
+1511192190 f:\studia\semestr iii\obiektowe\cw  5\analizatorsygnalu.hpp
+	"SygnalProbkowany.hpp"
+	<iostream>
+
+1511192148 f:\studia\semestr iii\obiektowe\cw  5\sygnalprobkowany.hpp
+	<vector>
+	"probkaa.hpp"
+	<string>
+	"Sygnal.hpp"
+
+1511192148 f:\studia\semestr iii\obiektowe\cw  5\probkaa.hpp
+	<iostream>
+
+1511192786 f:\studia\semestr iii\obiektowe\cw  5\sygnal.hpp
+	<iostream>
+	"windows.h"
+	<fstream>
+
+1510587618 f:\studia\semestr iii\obiektowe\cw  5\sygnalloader.hpp
+	"SygnalProbkowany.hpp"
+	<string>
+
+1511434458 source:f:\studia\semestr iii\obiektowe\cw  5\main.cpp
+	<iostream>
+	"probkaa.hpp"
+	"Sygnal.hpp"
+	"sygnalloader.hpp"
+	"analizatorsygnalu.hpp"
+	"windows.h"
+	"SygnalProbkowany.hpp"
+	"Sygnalsinusoidalny.hpp"
+
+1510587572 f:\studia\semestr iii\obiektowe\cw  5\syngall.hpp
+	<vector>
+	"probkaa.hpp"
+	<string>
+
+1509376870 source:f:\studia\semestr iii\obiektowe\cw  5\probka.cpp
+	"probkaa.hpp"
+
+1511192786 source:f:\studia\semestr iii\obiektowe\cw  5\sygnal.cpp
+
+1511434546 source:f:\studia\semestr iii\obiektowe\cw  5\sygnalloader.cpp
+	"sygnalloader.hpp"
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1511434444 source:f:\studia\semestr iii\obiektowe\cw  5\sygnalprobkowany.cpp
+	"SygnalProbkowany.hpp"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1511432244 source:f:\studia\semestr iii\obiektowe\cw  5\sygnalsinusoidalny.cpp
+	"Sygnalsinusoidalny.hpp"
+	<cmath>
+	<iostream>
+
+1511431900 f:\studia\semestr iii\obiektowe\cw  5\sygnalsinusoidalny.hpp
+	<iostream>
+	"Sygnal.hpp"
+	<cmath>
+
+1510587572 source:c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\analizatorsygnalu.cpp
+	"analizatorsygnalu.hpp"
+	<iostream>
+	"SygnalProbkowany.hpp"
+	"sygnalloader.hpp"
+
+1511783278 c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\analizatorsygnalu.hpp
+	"SygnalProbkowany.hpp"
+	<iostream>
+
+1511778459 c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\sygnalprobkowany.hpp
+	<vector>
+	"probkaa.hpp"
+	<string>
+	"Sygnal.hpp"
+
+1511783278 c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\probkaa.hpp
+	<iostream>
+
+1511778178 c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\sygnal.hpp
+	<iostream>
+	"windows.h"
+	<fstream>
+
+1511783278 c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\sygnalloader.hpp
+	"SygnalProbkowany.hpp"
+	<string>
+
+1511434458 source:c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\main.cpp
+	<iostream>
+	"probkaa.hpp"
+	"Sygnal.hpp"
+	"sygnalloader.hpp"
+	"analizatorsygnalu.hpp"
+	"windows.h"
+	"SygnalProbkowany.hpp"
+	"Sygnalsinusoidalny.hpp"
+
+1511778459 c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\sygnalsinusoidalny.hpp
+	<iostream>
+	"Sygnal.hpp"
+	<cmath>
+
+1509376870 source:c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\probka.cpp
+	"probkaa.hpp"
+
+1511192786 source:c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\sygnal.cpp
+
+1511434546 source:c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\sygnalloader.cpp
+	"sygnalloader.hpp"
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1511434444 source:c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\sygnalprobkowany.cpp
+	"SygnalProbkowany.hpp"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1511432244 source:c:\users\neonet\desktop\studia\iii semestr\programowanie\cw  5\sygnalsinusoidalny.cpp
+	"Sygnalsinusoidalny.hpp"
+	<cmath>
+	<iostream>
 

@@ -15,13 +15,12 @@ SygnalProbkowany sygnalloader::wczytajSygnal (std::string nazwaPliku)
     while (getline(plik,line))
 {
     stringstream aa(line);
-    cout<<line<<endl;
+
     double _t, _x;
     aa>>_t;
     aa.ignore();
     aa>>_x;
-    cout<<_t<<endl;
-    cout<<_x<<endl;
+
     sn.dodajProbke (Probka( _t,_x));
 }
 
@@ -36,7 +35,7 @@ void sygnalloader::zapiszSygnal (SygnalProbkowany& sygnal, std::string nazwaPlik
 
    for (int i=0;i<sygnal.iloscProbek();i++)
    {
-       plik<<sygnal[i].t <<" "<<sygnal[i].x<< endl;
+       plik<<sygnal[i].t <<", "<<sygnal[i].x<< endl;
    }
    plik.close();
 }
