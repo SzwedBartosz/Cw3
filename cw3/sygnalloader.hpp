@@ -1,6 +1,6 @@
 #ifndef SYGNALLOADER_HPP
 #define SYGNALLOADER_HPP
-#include "syngall.hpp"
+#include "SygnalProbkowany.hpp"
 #include <string>
 
 
@@ -8,12 +8,12 @@ class sygnalloader {
 
 public:
 sygnalloader(){}
-/** \brief wczytanie sygnalu z pliku
-*/
-syngall wczytajSygnal (std::string nazwaPliku);
-/** \brief zapisanie sygnalu do pliku
+/** \brief wczytanie sygnalu probkowanego z pliku
  */
-void zapiszSygnal (syngall& sygnal, std::string nazwaPliku);
+SygnalProbkowany wczytajSygnal (std::string nazwaPliku);
+/** \brief zapisanie sygnalu probkowanego do pliku
+ */
+void zapiszSygnal (SygnalProbkowany& sygnal, std::string nazwaPliku);
 
 
 

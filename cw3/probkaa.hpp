@@ -2,12 +2,13 @@
 #define PROBKA_HPP // PEOBKA_HPP
 #include <iostream>
 
+
 class Probka {
     public:
  double t;
  double x;
  Probka();
- /** \brief operator zaprzyjazniony, wczytanie sygnalu
+ /** \brief operator zaprzyjazniony wczytanie sygnalu
   *
   * \param stream std::ostream&
   * \param probka const Probka&

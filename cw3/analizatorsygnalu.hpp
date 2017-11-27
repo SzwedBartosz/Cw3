@@ -1,47 +1,47 @@
 #ifndef ANALIZATORSYGNALU_HPP
 #define ANALIZATORSYGNALU_HPP
-#include "syngall.hpp"
+#include "SygnalProbkowany.hpp"
 #include <iostream>
-
 
 class analizatorsygnalu{
 AnalizatorSygnalu();
 public:
-/** \brief dlugosc sygnalu
+
+/** \brief dlugosc sygnalu probkowanego
  *
- * \param sygnal const syngall&
+ * \param sygnal const SygnalProbkowany&
  * \return double
  *
  */
-double dlugosc( const syngall& sygnal);
-/** \brief minimalna wartosc sygnalu
+double dlugosc( const SygnalProbkowany& sygnal);
+/** \brief minimalna wartosc sygnalu probkowanego
  *
- * \param sygnal const syngall&
+ * \param sygnal const SygnalProbkowany&
  * \return double
  *
  */
-double minimum(const syngall& sygnal);
-/** \brief maksymalna wartosc sygnalu
+double minimum(const SygnalProbkowany& sygnal);
+/** \brief maksymalna wartosc sygnalu probkowanego
  *
- * \param sygnal const syngall&
+ * \param sygnal const SygnalProbkowany&
  * \return double
  *
  */
-double maksimum(const syngall& sygnal);
-/** \brief srednia wartosc sygnalu
+double maksimum(const SygnalProbkowany& sygnal);
+/** \brief srednia wartosc sygnalu probkowanego
  *
- * \param sygnal const syngall&
+ * \param sygnal const SygnalProbkowany&
  * \return double
  *
  */
-double srednia(const syngall& sygnal);
-/** \brief calka sygnalu
+double srednia(const SygnalProbkowany& sygnal);
+/** \brief calka z syngalu probkowanego
  *
- * \param sygnal const syngall&
+ * \param sygnal const SygnalProbkowany&
  * \return double
  *
  */
-double calka(const syngall& sygnal);
+double calka(const SygnalProbkowany& sygnal);
 };
 
 

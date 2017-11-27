@@ -5,10 +5,9 @@
 #include <string>
 
 
-class syngall {
+class syngall{
 public:
-
-/** \brief podzial na probki
+/** \brief podzial sygnalu na probki
  */
 void dodajProbke ( const Probka& p);
  /** \brief liczenie ilosci probek
@@ -31,7 +30,7 @@ void dodajProbke ( const Probka& p);
   *
   */
  const Probka& operator[](int i) const;
- /** \brief operator zaprzyjazniony, wczytujacy sygnal
+ /** \brief operator zaprzyjazniony wczytujacy sygnal
   *
   * \param stream std::ostream&
   * \param sygnal const syngall&
@@ -43,6 +42,11 @@ void dodajProbke ( const Probka& p);
 
 private:
 /** \brief tworzenie tablicy z probek
+ *
+ * \param
+ * \param
+ * \return
+ *
  */
 std::vector <Probka> _zmienne;
 };
